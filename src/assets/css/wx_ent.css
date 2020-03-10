@@ -1,0 +1,153 @@
+.ent_from {
+  width: 800px;
+  margin: 0 auto;
+  background:#f8f9fe;
+}
+.form_banner{ /**表单头部banner**/
+  width: 100%;
+  position: relative;
+}
+.form_banner img { /*表单头部图片*/
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.form_title{ /**表单头部banner 文字**/
+  position: absolute;
+  top:70px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  left:20px;
+}
+
+.form_field {/**表单填写项容器宽度**/
+  width: 90%;
+  margin: 20px auto 30px auto; /*下面原本是20*/
+  display: flex;
+  box-sizing: border-box;
+}
+.form_field_label{ /**表单字段名**/
+  font-size: 16px;
+  color: #333;
+  width: 25%;
+  line-height: 28px;
+}
+.form_field_label01{ /**表单字段名**/
+  font-size: 16px;
+  color: #333;
+  width: 25%;
+  height: 28px;
+}
+.title_node::after{ /**字段名必填标志**/
+  content: "*";
+  color:#da2824;
+  margin-left:5px;
+  font-size: 16px;
+}
+.field_note_light{ /**字段名备注样式(深灰色)**/
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+}
+.field_note_fade{ /**字段名备注样式(浅灰色)**/
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(102, 102, 102, 0.7);
+}
+.form_field_label::after{ /**字段名必填标志**/
+  content: "*";
+  color:#da2824;
+  margin-left:5px;
+  font-size: 16px;
+}
+.form_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.form_value_input01{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+.form_input{ /**表单填写项input样式**/
+  width: 100px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+.form_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.line {
+  color: D3D3D3;
+  width: 90%;
+  margin: 20px auto 30px auto; /*下面原本是20*/
+}
+.form_value_input02{ /**表单填写项input样式**/
+  width: 500px;
+  height: 120px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.insert_icon{
+  position: relative;
+}
+.insert_icon .form_value_input{
+  padding-left: 30px;
+}
+.input_icon{
+  height: 100%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+.input_icon::after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin:0 auto;
+}
+.name_icon::after {
+  background: url("../images/icon/user.png") no-repeat;
+  background-size: 100% auto;
+}
+.phone_icon::after {
+  background: url("../images/icon/phone.png") no-repeat;
+  background-size: 100% auto;
+}
+
+
